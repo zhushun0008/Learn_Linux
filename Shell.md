@@ -10,8 +10,11 @@ use ***test*** to determine whether a directory or files, return ***0*** for suc
 
 #### Problem Solved
 1. 脚本传参遇到空格，会被截取
+  * reference
+    * [Shell脚本传递带有空格的参数](Shell脚本传递带有空格的参数)
+    * [ shell参数传递 含有空格的问题 二楼回复](http://bbs.chinaunix.net/thread-4094745-1-1.html)
   * 可以使用 ***双引号或者${@:3}***
-  * e.g 
+  * e.g.
   ```
     id2=1525
     id3=7057
